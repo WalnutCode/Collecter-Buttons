@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Collector Buttons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Collector Button</h1>
+                  <p class="lead">Collect the Buttons!</p>
+                </div>
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-body">   
+                    <h5 class="card-title">Instructions</h5>
+                    <p class="card-text">Each button has a different number. Your job is to figure out what that number is and try to make the target score</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">   
+                      <h5 class="card-title">Target Score</h5>
+                      <p class="card-text" id="targetScore"></p>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">   
+                      <h5 class="card-title">Your Score</h5>
+                      <p class="card-text" id="yourScore"></p>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">   
+                      <h5 class="card-title">Button Selection</h5>
+                      <img src="pictures-buttons/blue.jpg">
+                    </div>
+                </div>
+            </div>                  
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">   
+                      <h5 class="card-title">Win Count</h5>
+                      <p class="card-text" id="winScore">0</p>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">   
+                      <h5 class="card-title">Losess Count</h5>
+                      <p class="card-text" id="lossScore">0</p>   
+                    </div>
+                </div>
+            </div>                       
+        </div>
+    </div> 
+</body>
+</html>
+
