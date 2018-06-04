@@ -1,0 +1,16 @@
+.one {
+    background-color:lightgray
+}
+
+.card-bodyA {
+    background-color:palegreen;
+    font-family: 'Bungee Shade', cursive;
+}
+.card-bodyB {
+    background-color:lightcoral;
+    color:whitesmoke
+}
+.card-bodyC {
+    background-color:navy;
+    color:whitesmoke
+}
