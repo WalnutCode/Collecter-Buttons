@@ -1,16 +1,33 @@
 .one {
-    background-color:lightgray
+
 }
 
 .card-bodyA {
     background-color:palegreen;
     font-family: 'Bungee Shade', cursive;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
 }
 .card-bodyB {
     background-color:lightcoral;
-    color:whitesmoke
+    color:whitesmoke;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
 }
 .card-bodyC {
     background-color:navy;
-    color:whitesmoke
+    color:whitesmoke;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+}
+.button{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
 }
